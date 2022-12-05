@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_12_05_070100) do
+ActiveRecord::Schema[7.0].define(version: 2022_12_05_090158) do
   create_table "categories", force: :cascade do |t|
     t.string "name"
     t.string "genre"
@@ -34,9 +34,11 @@ ActiveRecord::Schema[7.0].define(version: 2022_12_05_070100) do
     t.string "alias"
     t.string "avatar"
     t.text "bio"
-    t.string "social_handles"
+    t.string "facebook_handle"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "instagram_handle"
+    t.string "twitter_handle"
   end
 
   create_table "profiles", force: :cascade do |t|
