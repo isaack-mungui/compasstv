@@ -3,9 +3,5 @@ Rails.application.routes.draw do
   resources :contents
   resources :creators
   resources :profiles
-  resources :users
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
-
-  # Defines the root path route ("/")
-  # root "articles#index"
+  resources :users, only: [:index, :show, :create, :update]
 end
