@@ -4,4 +4,9 @@ Rails.application.routes.draw do
   resources :creators, only: [:index, :show, :create, :update]
   resources :profiles, only: [:index, :show, :create, :update]
   resources :users, only: [:index, :show, :create, :update]
+
+  post "/signup", to: "users#create"
+  get "/auth", to: "users#show"
+  post "/login", to: "sessions#create"
+  delete "/logout", to: "sessions#destroy"
 end
