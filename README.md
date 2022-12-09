@@ -5,7 +5,7 @@ The setups steps expect following tools installed on the system.
 - Github
 - Ruby [2.7.4](https://github.com/ruby/www.ruby-lang.org)
 - Rails [7.0.4](https://github.com/rails/rails/tree/7-0-stable)
-- Postgresql 12+
+- Postgresql [12+](https://www.digitalocean.com/community/tutorials/how-to-use-postgresql-with-your-ruby-on-rails-application-on-ubuntu-20-04)
 
 ##### Check out the repository
 
