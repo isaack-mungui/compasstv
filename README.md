@@ -56,31 +56,26 @@ And now you can visit the site with the URL http://localhost:3000
 | GET | /categories/:id | To retrieve details of a single category |
 | PATCH | /categories/:id | To To edit the details of a single category |
 | PUT | /categories/:id | To To edit the details of a single category |
-
 | GET | /contents | To retrieve all content |
 | POST | /contents | To create a new content record |
 | GET | /contents/:id | To retrieve all details of a single content |
 | PATCH | /contents/:id | To edit the details of a single content |
 | PUT | /contents/:id | To edit the details of a single content |
 | DELETE | /contents/:id | To destroy details of a single content |
-
 | GET | /creators | To retrieve all creators |
 | POST | /creators | To create a new creator record |
 | GET | /creators/:id | To retrieve all details of a single creator |
 | PATCH | /creators/:id | To edit the details of a single creator |
 | PUT | /creators/:id | To edit the details of a single creator |
-
 | GET | /profiles | To retrieve all profiles |
 | POST | /profiles | To create a new profile record |
 | GET | /profiles/:id | To retrieve all details of a single profile |
 | PATCH | /profiles/:id | To edit the details of a single profile |
 | PUT | /profiles/:id | To edit the details of a single profile |
-
 | GET | /users | To retrieve all users |
 | POST | /signup | To create a new user record |
 | GET | /auth | To retrieve all details of a single user |
 | PATCH | /users/:id | To edit the details of a single user |
 | PUT | /users/:id | To edit the details of a single profile |
-
 | POST | /login | To create a new user session |
 | DELETE | /logout | To destroy details of a user session |
