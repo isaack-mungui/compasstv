@@ -1,0 +1,91 @@
+/* * {
+    background-color: #9FB3F4;
+} */
+
+#connect {
+    position: absolute;
+    text-align: center;
+    width: 365px;
+    height: 74px;
+    left: 600px;
+    top: 1750px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+
+    color: #FFFFFF;
+}
+
+#ownership {
+    position: absolute;
+    width: 424px;
+    height: 24px;
+    left: 570px;
+    top: 1900px;
+
+    font-family: 'Montserrat';
+
+    color: #FFFFFF; 
+}
+
+.owner1 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 418px;
+    top: 1960px;
+}
+
+.owner2 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 582px;
+    top: 1960px;
+}
+
+.owner3 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 737px;
+    top: 1960px;
+}
+
+.owner4 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 893px;
+    top: 1960px;
+}
+
+.owner5 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    /* left: 60.71%; */
+    left: 1049px;
+    top: 1960px;
+    /* bottom: 2.13%; */
+}
+
+input#browse-channels {
+    position: absolute;
+    width: 250px;
+    height: 48px;
+    left: 640px;
+    top: 2100px;
+    border: #9A0BD7;
+    border-radius: 40px;
+    background-color: #9A0BD7;
+    /* width: 180px; */
+}
+
+hr#connect-page-hr {
+    position: relative;
+    top: 2200px;
+}

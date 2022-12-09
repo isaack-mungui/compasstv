@@ -1,0 +1,166 @@
+/* .brand-subscribe-page {
+    background-color: #9FB3F4;
+} */
+
+#question {
+    position: absolute;
+    width: 323px;
+    height: 49px;
+    left: 630px;
+    top: 900px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 49px;
+
+    color: #000;
+}
+
+
+.material-symbol {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 330px;
+    top: 1000px;
+
+    opacity: 0.4;
+}
+
+.vector {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 540px;
+    top: 1000px;
+
+    opacity: 0.4;
+}
+
+.group-symbol {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 810px;
+    top: 1000px;
+
+    opacity: 0.4;
+}
+
+.download-symbol {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1080px;
+    top: 1000px;
+
+    opacity: 0.4;
+}
+
+#exclusive {
+    position: absolute;
+    left: 260px;
+    top: 1080px;
+    font-family: 'Montserrat';
+    font-style: normal;
+
+    color: #000000;
+}
+
+#support {
+    position: absolute;
+    left: 485px;
+    top: 1080px;
+    font-family: 'Montserrat';
+    font-style: normal;
+
+    color: #000000;
+}
+
+#ads {
+    position: absolute;
+    left: 770px;
+    top: 1080px;
+    font-family: 'Montserrat';
+    font-style: normal;
+
+    color: #000000;
+}
+
+#download {
+    position: absolute;
+    right: 315px;
+    top: 1080px;
+    font-family: 'Montserrat';
+    font-style: normal;
+
+    color: #000000;
+}
+
+#price-tag {
+    position: absolute;
+    left: 725px;
+    top: 1175px;
+    font-family: 'Montserrat';
+    font-style: normal;
+
+    color: #000000;
+}
+
+#price-justification {
+    position: absolute;
+    width: 464px;
+    height: 74px;
+    left: 540px;
+    top: 1260px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    /* font-weight: 400; */
+    font-size: 25px;
+    line-height: 37px;
+
+    color: #000000;
+}
+
+/* #cancel-anytime {
+    position: absolute;
+    width: 464px;
+    height: 74px;
+    left: 540px;
+    top: 1400px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 37px;
+
+    color: #000000;
+} */
+
+#cancel-anytime {
+    position: absolute;
+    color: #FBF38C;
+    left: 690px;
+    top: 1380px;
+}
+
+input#sign-up {
+    position: absolute;
+    border: #9A0BD7;
+    border-radius: 40px;
+    background-color: #9A0BD7;
+    width: 180px;
+    height: 50px;
+    left: 690px;
+    top: 1485px;
+}
+
+#subscribe-hr {
+    position: relative;
+    top: 1530px;
+}

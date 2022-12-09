@@ -1,0 +1,63 @@
+nav {
+  position: fixed;
+}
+
+a.navbar-brand {
+  justify-content: space-between;
+  height: 50px;
+}
+
+a.live {
+  position: absolute;
+  left: 530px;
+}
+
+a.podcasts {
+  position: absolute;
+  left: 390px;
+}
+
+a.videos {
+  position: absolute;
+  left: 250px;
+}
+
+a.home {
+  position: relative;
+  left: 110px;
+}
+
+a.sign-in {
+  position: absolute;
+  right: 250px;
+  color: #9A0BD7;
+}
+
+.sign-up {
+  border: #9A0BD7;
+  background-color: #9A0BD7;
+  border-radius: 20px;
+  width: 120px;
+  height: 40px;
+  position: absolute;
+  right: 110px;
+}
+
+a#sign-up {
+  color: #FFF;
+  font-family: 'Poppins';
+  font-size: medium;
+  text-decoration: none;
+}
+
+.sign-up:hover {
+  background-color: #9A0BD7; 
+}
+
+img#nav-logo {
+  position: absolute;
+  top:20px;
+  width: 30px;
+  height: 30px;
+  margin: auto;
+}

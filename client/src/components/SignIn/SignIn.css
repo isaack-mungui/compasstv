@@ -1,0 +1,62 @@
+.form-control {
+    width: 500px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 100px;
+    background: #FFFFFF;
+    border: 1px solid #A70CD2;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.form-check {
+    width: 500px;
+    padding-top: 30px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 100px;
+}
+
+button.sign-in {
+    position: absolute;
+    border: #9A0BD7;
+    border-radius: 40px;
+    background-color: #9A0BD7;
+    width: 500px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    left: 505px;
+    right: 0px;
+    top: 140px;
+    color: #FFFFFF;
+}
+  
+button.sign-in:hover {
+background-color: #9A0BD7;
+}
+
+h4 {
+font-family: 'Poppins';
+font-style: normal;
+font-size:large;
+position: absolute;
+width: 576px;
+height: 36px;
+left: 600px;
+top: 540px;
+}
+
+a.sign-in-link {
+text-decoration: none;
+color: #9A0BD7;
+}

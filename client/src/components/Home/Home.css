@@ -1,0 +1,147 @@
+/* body {
+    background: linear-gradient(
+    to right,
+    #9FB3F4 0%,
+    #9FB3F4 60%,
+    #FBF38C 60%,
+    #FBF38C 100%
+  );
+  z-index: 0;
+} */
+
+img#home-logo {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 120px;
+  top: 150px;
+}
+
+img {
+  position: absolute;
+  width: 600px;
+  height: 400px;
+  left: 800px;
+  top: 200px;
+}
+
+#title {
+  position: absolute;
+  width: 198px;
+  height: 49px;
+  left: 200px;
+  top: 150px;
+
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+  letter-spacing: 0.025em;
+  color: #000;
+}
+
+#headline {
+  position: absolute;
+  text-align: left;
+  width: 427px;
+  height: 180px;
+  left: 120px;
+  top: 250px;
+
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 60px;
+  letter-spacing: 0.025em;
+  color: #000;
+}
+
+#description {
+  position: absolute;
+  text-align: left;
+  width: 514px;
+  height: 108px;
+  left: 120px;
+  top: 450px;
+
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.025em;
+  color: #000;
+}
+
+input.sign-up {
+  position: absolute;
+  border: #9A0BD7;
+  border-radius: 40px;
+  background-color: #9A0BD7;
+  width: 140px;
+  height: 50px;
+  left: 120px;
+  top: 600px;
+  color: #FFF;
+}
+
+input.sign-up:hover {
+  color: #FFF;
+  background-color: #9A0BD7;
+}
+
+input.sign-up:active {
+  /* background-color: #9A0BD7; */
+  color: #FFF;
+  transform: scale(0.98);
+  /* Scaling button to 0.98 to its original size */
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+  /* Lowering the shadow */
+}
+
+input.learn-more {
+  position: absolute;
+  border: #FFF;
+  color: #9A0BD7;
+  background-color: #FFF;
+  border-radius: 40px;
+  width: 140px;
+  height: 50px;
+  left: 280px;
+  top: 600px;
+}
+
+input.learn-more:hover {
+  background-color: #9A0BD7;
+}
+
+#why-subscribe {
+  position: absolute;
+  width: 323 px;
+  height: 49px;
+  left: 750px;
+  top: 880px;
+
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 49px;
+
+  color: #000;
+}
+
+hr {
+  position: relative;
+  top: 720px;
+}
+
+@media screen and (max-width: 800px) {
+  .left, .main, .right {
+    width: 50%;
+  }
+}
+

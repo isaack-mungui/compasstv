@@ -1,5 +1,5 @@
-puts "Started seeding..."
+# puts "Started seeding..."
 
-User.create([{ email_address: "munguiisaack@gmail.com" }, { email_address: "harrypotter@gmail.com" }])
+# User.create([{ email: "munguiisaack@gmail.com" }, { email: "harrypotter@gmail.com" }])
 
-puts "Done seeding!!!"
+# puts "Done seeding!!!"
