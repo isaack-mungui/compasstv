@@ -12,9 +12,9 @@ To install the above, I highly recommend using a node version manager (i.e. http
 
 Setup
 =====================================================================
-`Javascript
+```Javascript
 npm install
-`
+```
 
 ### `npm start`
 
