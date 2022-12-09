@@ -10,9 +10,11 @@ You will need the following things properly installed on your computer.
 - npm >= 8
 To install the above, I highly recommend using a node version manager (i.e. https://github.com/creationix/nvm)
 
-## Available Scripts
-
-In the project directory, you can run:
+Setup
+=====================================================================
+`Javascript
+npm install
+`
 
 ### `npm start`
 
