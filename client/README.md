@@ -12,6 +12,7 @@ To install the above, I highly recommend using a node version manager (i.e. http
 
 Setup
 =====================================================================
+Run this script to install project dependencies:
 ```Javascript
 npm install
 ```
