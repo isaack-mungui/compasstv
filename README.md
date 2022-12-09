@@ -3,6 +3,8 @@ LIVE LINK
 - [Client](https://compasstv.vercel.app/)
 - [Server](https://compasstv-production.up.railway.app/)
 
+![](./client/public/compasstv.png)
+
 ##### Prerequisites
 
 The setups steps expect following tools installed on the system.
