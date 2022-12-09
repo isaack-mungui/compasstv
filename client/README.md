@@ -6,8 +6,8 @@ Pre-Prerequisites
 ======================================================================
 You will need the following things properly installed on your computer.
 
-node >= 18
-npm >= 8
+- node >= 18
+- npm >= 8
 To install the above, I highly recommend using a node version manager (i.e. https://github.com/creationix/nvm)
 
 ## Available Scripts
