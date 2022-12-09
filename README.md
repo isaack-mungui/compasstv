@@ -1,7 +1,7 @@
 LIVE LINK
 ===============================================================
-[Client](https://compasstv.vercel.app/)
-[Server](https://compasstv-production.up.railway.app/)
+- [Client](https://compasstv.vercel.app/)
+- [Server](https://compasstv-production.up.railway.app/)
 
 ##### Prerequisites
 
