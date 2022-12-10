@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { ReactDOM } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
@@ -13,13 +13,34 @@ import CreatorConnect from './components/CreatorConnect/CreatorConnect';
 import Footer from './components/Footer/Footer';
 
 function App() {
+  const [user, setUser] = useState(null);
+
+  useEffect(() => {
+    fetch("https://compasstv-production.up.railway.app/auth")
+    .then((res) => {
+      if (res.ok) {
+        res.json().then((user) => setUser(user))
+      }
+    })
+  }, [])
+
+  function handleSignIn(user) {
+    setUser(user)
+  }
+
+  // if (user) {
+  //   return <h2>Welcome, {user.username}!</h2>
+  // } else {
+  //   return <SignIn onSignIn={setUser} />
+  // }
+
   return (
     <BrowserRouter>
       <NavBar />
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/signup' element={<SignUp />} />
-        <Route path='/signin' element={<SignIn />} />
+        <Route path='/signin' element={<SignIn onSignIn={handleSignIn}/>} />
       </Routes>
       <Footer />
     </BrowserRouter>
