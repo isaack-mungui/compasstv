@@ -1,63 +1,61 @@
-nav {
-  position: fixed;
-}
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
 
-a.navbar-brand {
-  justify-content: space-between;
-  height: 50px;
-}
-
-a.live {
-  position: absolute;
-  left: 530px;
-}
-
-a.podcasts {
-  position: absolute;
-  left: 390px;
-}
-
-a.videos {
-  position: absolute;
-  left: 250px;
-}
-
-a.home {
-  position: relative;
-  left: 110px;
-}
-
-a.sign-in {
-  position: absolute;
-  right: 250px;
-  color: #9A0BD7;
-}
-
-.sign-up {
-  border: #9A0BD7;
-  background-color: #9A0BD7;
-  border-radius: 20px;
-  width: 120px;
-  height: 40px;
-  position: absolute;
-  right: 110px;
-}
-
-a#sign-up {
-  color: #FFF;
-  font-family: 'Poppins';
-  font-size: medium;
+li, a, button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #000;
   text-decoration: none;
 }
 
-.sign-up:hover {
-  background-color: #9A0BD7; 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 10%;
+  text-align: left;
+  width: 100%;
 }
 
-img#nav-logo {
+.nav-logo {
   position: absolute;
-  top:20px;
-  width: 30px;
-  height: 30px;
-  margin: auto;
+  top: 45px;
+  left: 650px;
+  cursor: pointer;
+  width: 5%;
+  height: 5%;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav-links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+  color: #0088a9;
+}
+
+button {
+  padding: 5px 15px;
+  background-color: #A00CD4;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  background-color: #A00CD4;
+}
+
+.cta-signin {
+  margin-left: 300px;
 }

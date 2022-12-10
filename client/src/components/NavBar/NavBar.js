@@ -1,6 +1,6 @@
 import React from 'react'
 
-import logo from './mdi_compass-rose.png'
+import logo from './Vector.svg'
 
 import './NavBar.css'
 
@@ -8,7 +8,7 @@ import './NavBar.css'
 function NavBar() {
     return (
         <div>
-            <nav class="navbar bg-light">
+            {/* <nav class="navbar bg-light">
                 <img src={logo} id="nav-logo" alt="Logo" />
                 <div class="container-fluid">
                     <a class="navbar-brand home" href='/'>Home</a>
@@ -20,7 +20,21 @@ function NavBar() {
                         <a href='/signup' id='sign-up'>Sign Up</a>
                     </button>
                 </div>
-            </nav>
+            </nav> */}
+
+            <header>
+                <img className="nav-logo" src={logo} alt="Logo" />
+                <nav>
+                    <ul className='nav-links'>
+                        <li><a href='/'>Home</a></li>
+                        <li><a href='/videos'>Videos</a></li>
+                        <li><a href='/podcasts'>Podcasts</a></li>
+                        <li><a href='/live'>Livestream</a></li>
+                        <li><a className='cta-signin' href='/signin'>Sign In</a></li>
+                        <li><a className='cta' href='/signup'><button>Sign Up</button></a></li>
+                    </ul>
+                </nav>
+            </header>
         </div>    
     )
 }

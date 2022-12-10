@@ -19,10 +19,10 @@ img#home-logo {
 
 img {
   position: absolute;
-  width: 600px;
-  height: 400px;
-  left: 800px;
-  top: 200px;
+  width: 40%;
+  height: 60%;
+  left: 600px;
+  top: 150px;
 }
 
 #title {
