@@ -7,15 +7,8 @@ import './Home.css'
 
 
 function Home() {
-    function handleClick() {
-        fetch('/cookie_click')
-        .then(res => res.json())
-        .then(console.log())
-    }
-
     return (
         <div>
-            <button onClick={handleClick}>Click</button>
             <div class="intro">
                 <h1 id='title'>Compass</h1>
                 <h2 id='headline'>

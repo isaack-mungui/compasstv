@@ -1,10 +1,14 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import NavBar from "../NavBar/NavBar";
 
 import './SignIn.css'
 
 function SignIn({ onSignIn }) {
-    const [emailAddress, setEmailAddress] = useState("")
+    const [email, setEmail] = useState("")
+    const [password, setPassword] = useState("")
+    const navigate = useNavigate()
+
 
     function handleSubmit(e) {
         e.preventDefault();
@@ -13,10 +17,11 @@ function SignIn({ onSignIn }) {
             headers: {
                 'Content-Type': 'application/json'
             },
-            body: JSON.stringify({ emailAddress }),
+            body: JSON.stringify({ email }),
         })
         .then((r) => r.json())
         .then((user) => onSignIn(user))
+        navigate('/videos')
     }
 
     return (
@@ -24,11 +29,24 @@ function SignIn({ onSignIn }) {
             <form onSubmit={handleSubmit}>
                 <div class="form-group">
                     {/* <label for="exampleInputEmail1">Email address</label> */}
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="name@example.com" />
+                    <input
+                     type="email" 
+                     class="form-control" 
+                     id="exampleInputEmail1" 
+                     aria-describedby="emailHelp" 
+                     placeholder="name@example.com" 
+                     onChange={(e) => setEmail(e.target.value)}
+                    />
                 </div>
                 <div class="form-group">
                     {/* <label for="exampleInputPassword1">Password</label> */}
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" />
+                    <input
+                     type="password" 
+                     class="form-control" 
+                     id="exampleInputPassword1" 
+                     placeholder="Password" 
+                     onChange={(e) => setPassword(e.target.value)}
+                    />
                 </div>
             </form>
 
