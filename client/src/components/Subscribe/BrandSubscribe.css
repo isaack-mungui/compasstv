@@ -1,12 +1,17 @@
-/* .brand-subscribe-page {
-    background-color: #9FB3F4;
-} */
+body {
+    overflow-x: hidden;
+}
 
-#question {
+section {
+    position: absolute;
+    top: -140px;
+}
+
+h2 {
     position: absolute;
     width: 323px;
     height: 49px;
-    left: 630px;
+    left: 480px;
     top: 900px;
 
     font-family: 'Montserrat', sans-serif;
@@ -19,42 +24,41 @@
     color: #000;
 }
 
-
-.material-symbol {
+#download-image {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: 330px;
+    left: 700px;
     top: 1000px;
 
     opacity: 0.4;
 }
 
-.vector {
+#exclusive-image {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: 540px;
+    left: 240px;
     top: 1000px;
 
     opacity: 0.4;
 }
 
-.group-symbol {
+#support-image {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: 810px;
+    left: 480px;
     top: 1000px;
 
     opacity: 0.4;
 }
 
-.download-symbol {
+#ads-image {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: 1080px;
+    left: 945px;
     top: 1000px;
 
     opacity: 0.4;
@@ -62,7 +66,7 @@
 
 #exclusive {
     position: absolute;
-    left: 260px;
+    left: 180px;
     top: 1080px;
     font-family: 'Montserrat';
     font-style: normal;
@@ -72,17 +76,7 @@
 
 #support {
     position: absolute;
-    left: 485px;
-    top: 1080px;
-    font-family: 'Montserrat';
-    font-style: normal;
-
-    color: #000000;
-}
-
-#ads {
-    position: absolute;
-    left: 770px;
+    left: 420px;
     top: 1080px;
     font-family: 'Montserrat';
     font-style: normal;
@@ -92,7 +86,7 @@
 
 #download {
     position: absolute;
-    right: 315px;
+    left: 660px;
     top: 1080px;
     font-family: 'Montserrat';
     font-style: normal;
@@ -100,11 +94,23 @@
     color: #000000;
 }
 
+#ads {
+    position: absolute;
+    left: 900px;
+    top: 1080px;
+    font-family: 'Montserrat';
+    font-style: normal;
+
+    color: #000000;
+}
+
+
 #price-tag {
     position: absolute;
-    left: 725px;
+    left: 570px;
     top: 1175px;
     font-family: 'Montserrat';
+    font-weight: 500;
     font-style: normal;
 
     color: #000000;
@@ -114,53 +120,39 @@
     position: absolute;
     width: 464px;
     height: 74px;
-    left: 540px;
-    top: 1260px;
+    left: 430px;
+    top: 1230px;
 
     font-family: 'Montserrat';
     font-style: normal;
-    /* font-weight: 400; */
-    font-size: 25px;
+    font-size: 24px;
     line-height: 37px;
 
     color: #000000;
 }
-
-/* #cancel-anytime {
-    position: absolute;
-    width: 464px;
-    height: 74px;
-    left: 540px;
-    top: 1400px;
-
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 25px;
-    line-height: 37px;
-
-    color: #000000;
-} */
 
 #cancel-anytime {
     position: absolute;
     color: #FBF38C;
-    left: 690px;
-    top: 1380px;
+    left: 550px;
+    top: 1330px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
 }
 
-input#sign-up {
+#sign-up {
     position: absolute;
     border: #9A0BD7;
     border-radius: 40px;
     background-color: #9A0BD7;
-    width: 180px;
-    height: 50px;
-    left: 690px;
-    top: 1485px;
+    width: 210px;
+    height: 40px;
+    left: 510px;
+    top: 1400px;
 }
 
 #subscribe-hr {
     position: relative;
-    top: 1530px;
+    top: 1300px;
 }
