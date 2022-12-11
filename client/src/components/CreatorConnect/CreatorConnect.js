@@ -2,16 +2,21 @@ import React from "react";
 
 import './CreatorConnect.css'
 
+import owner from "./owners.svg"
+
 function CreatorConnect() {
     return (
         <div>
-            <div id="connect">
-                <h4>Connect with:</h4>
-                <h4>your favorite creators.</h4>
-            </div>
+            <h4 id="connect">Connect with:<br/>your favorite creators.</h4>
             
             <h6 id="ownership">COMPASS IS OWNED AND OPERATED BY:</h6>
-            <input class="btn btn-primary" id="browse-channels" type="button" value="Browse all Channels"></input>
+            <img src={owner} className="creator-image" id="creator-image1" alt="Content Creators" />
+            <img src={owner} className="creator-image" id="creator-image2" alt="Content Creators" />
+            <img src={owner} className="creator-image" id="creator-image3" alt="Content Creators" />
+            <img src={owner} className="creator-image" id="creator-image4" alt="Content Creators" />
+            <img src={owner} className="creator-image" id="creator-image5" alt="Content Creators" />
+            
+            <a href='/creators'><button id='browse-channels'>Browse all Channels</button></a>
 
             <hr id="connect-page-hr" />
         </div>
