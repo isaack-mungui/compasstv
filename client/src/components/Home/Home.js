@@ -5,6 +5,9 @@ import logo from './mdi_compass-rose.png'
 
 import './Home.css'
 
+import BrandSubscribe from '../Subscribe/BrandSubscribe'
+import CreatorConnect from '../CreatorConnect/CreatorConnect'
+
 
 function Home() {
     return (
@@ -31,6 +34,9 @@ function Home() {
                 </div>
             </div>
             <hr />
+
+            <BrandSubscribe />
+            <CreatorConnect />
         </div>
     );
 }
