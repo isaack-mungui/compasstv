@@ -9,30 +9,28 @@ import './Home.css'
 function Home() {
     return (
         <div>
-            <div class="intro">
-                <h1 id='title'>Compass</h1>
-                <h2 id='headline'>
-                    Find and listen to 
-                    your favorite Videos
+            <div class="content">
+                <h3 id='title'>Compass</h3>
+                <p id='headline'>
+                    Find and listen to<br/>
+                    your favorite <span>Videos</span><br/>
                     on the internet.
-                </h2>
-                <h3 id='description'>
-                    Compass is the home of smart, 
-                    thoughtful videos, podcasts, and classes 
+                </p>
+                <p id='description'>
+                    Compass is the home of smart,<br/>
+                    thoughtful videos, podcasts, and classes<br/> 
                     from your favorite creators. 
-                </h3>
+                </p>
 
                 <img src={photo} alt="Dancing in the moonlight" />
                 <img src={logo} id="home-logo" alt="Logo" />
                 
-
-                <input class="btn sign-up" type="button" value="Sign Up">
-                    {/* <a href='/signup' id='sign-up'>Sign Up</a> */}
-                </input>
-                <input class="btn learn-more" type="button" value="Learn More"></input>
-
-                {/* <hr /> */}
+                <div className='home-buttons'>
+                    <a href='/signup'><button className='sign-up'>Sign Up</button></a>
+                    <a href='/learn-more'><button className='learn-more'>Learn More</button></a>
+                </div>
             </div>
+            <hr />
         </div>
     );
 }

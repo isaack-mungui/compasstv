@@ -1,20 +1,23 @@
-/* body {
-    background: linear-gradient(
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400');
+
+body {
+    /* background: linear-gradient(
     to right,
     #9FB3F4 0%,
     #9FB3F4 60%,
     #FBF38C 60%,
     #FBF38C 100%
-  );
-  z-index: 0;
-} */
+  ); */
+  background: #9FB3F4;
+  /* height: 50vh; */
+}
 
 img#home-logo {
   position: absolute;
-  width: 50px;
-  height: 50px;
-  left: 120px;
-  top: 150px;
+  width: 30px;
+  height: 30px;
+  left: 175px;
+  top: 170px;
 }
 
 img {
@@ -29,31 +32,42 @@ img {
   position: absolute;
   width: 198px;
   height: 49px;
-  left: 200px;
-  top: 150px;
+  left: 220px;
+  top: 160px;
 
   font-family: 'Montserrat', sans-serif;
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 40px;
   line-height: 49px;
   letter-spacing: 0.025em;
   color: #000;
 }
 
+span {
+  color: #FBF38C;
+  transition: all 0.5s ease;
+}
+
+span:hover {
+  color: #FF0000;
+  transform: scale(1.2);
+}
+
 #headline {
   position: absolute;
   text-align: left;
   width: 427px;
-  height: 180px;
-  left: 120px;
-  top: 250px;
+  height: 120px;
+  left: 175px;
+  top: 220px;
 
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
-  font-size: 40px;
-  line-height: 60px;
+  font-weight: 100;
+  font-size: 30px;
+  word-wrap: break-word;
+  line-height: 36px;
   letter-spacing: 0.025em;
   color: #000;
 }
@@ -61,59 +75,56 @@ img {
 #description {
   position: absolute;
   text-align: left;
-  width: 514px;
+  width: 500px;
   height: 108px;
-  left: 120px;
-  top: 450px;
+  left: 175px;
+  top: 340px;
 
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
-  line-height: 36px;
+  font-size: 18px;
+  line-height: 28px;
   letter-spacing: 0.025em;
   color: #000;
 }
 
-input.sign-up {
+.home-buttons {
+  position: absolute;
+  top: -110px;
+}
+
+.sign-up {
   position: absolute;
   border: #9A0BD7;
   border-radius: 40px;
   background-color: #9A0BD7;
-  width: 140px;
-  height: 50px;
-  left: 120px;
+  width: 130px;
+  height: 40px;
+  left: 175px;
   top: 600px;
   color: #FFF;
 }
 
-input.sign-up:hover {
+.sign-up:hover {
   color: #FFF;
   background-color: #9A0BD7;
 }
 
-input.sign-up:active {
-  /* background-color: #9A0BD7; */
-  color: #FFF;
-  transform: scale(0.98);
-  /* Scaling button to 0.98 to its original size */
-  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
-  /* Lowering the shadow */
-}
-
-input.learn-more {
+.learn-more {
   position: absolute;
   border: #FFF;
   color: #9A0BD7;
   background-color: #FFF;
   border-radius: 40px;
-  width: 140px;
-  height: 50px;
-  left: 280px;
+  width: 130px;
+  height: 40px;
+  left: 320px;
   top: 600px;
 }
 
-input.learn-more:hover {
+.learn-more:hover {
+  color: #FFF;
   background-color: #9A0BD7;
 }
 
@@ -136,12 +147,6 @@ input.learn-more:hover {
 
 hr {
   position: relative;
-  top: 720px;
-}
-
-@media screen and (max-width: 800px) {
-  .left, .main, .right {
-    width: 50%;
-  }
+  top: 540px;
 }
 
