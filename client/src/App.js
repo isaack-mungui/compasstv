@@ -42,6 +42,8 @@ function App() {
         <Route path='/signup' element={<SignUp />} />
         <Route path='/signin' element={<SignIn onSignIn={handleSignIn}/>} />
       </Routes>
+      <BrandSubscribe />
+      <CreatorConnect />
       <Footer />
     </BrowserRouter>
   );
