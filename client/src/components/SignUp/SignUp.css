@@ -1,3 +1,18 @@
+#signup-email {
+    position: absolute;
+    left: 385px;
+}
+
+#signup-password {
+    position: absolute;
+    left: 385px;
+    top: 250px;
+}
+
+.form-group {
+    position: inherit;
+}
+
 .form-control {
     width: 500px;
     height: 60px;
@@ -13,17 +28,26 @@
     margin: 30px;
 }
 
-.form-check {
-    width: 500px;
-    margin-top: 10px;
-    /* padding-top: 30px; */
-    height: 40px;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    left: 0;
-    right: 0;
-    top: 100px;
+#form-input-email {
+    position: absolute;
+    top: 140px;
+    left: 0px;
+}
+
+#form-input-password {
+    position: absolute;
+    top: 250px;
+    left: 0px;
+}
+
+input.form-check-input {
+    position: absolute;
+    top: 140px;
+}
+
+.form-check-label {
+    position: absolute;
+    top: 140px;
 }
 
 .create-account {
@@ -36,9 +60,9 @@
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    left: 500px;
+    left: 380px;
     right: 0px;
-    top: 160px;
+    top: 260px;
     color: #FFFFFF;
 }
 
@@ -59,11 +83,12 @@ button.create-account:active {
     position: absolute;
     width: 576px;
     height: 36px;
-    left: 585px;
-    top: 630px;
+    left: 450px;
+    top: 570px;
 }
 
 .sign-up-link {
 text-decoration: none;
 color: #9A0BD7;
 }
+

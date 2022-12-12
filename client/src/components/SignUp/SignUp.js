@@ -4,6 +4,8 @@ import { useState, useEffect } from "react";
 
 import './SignUp.css'
 
+import Footer from '../Footer/Footer'
+
 function SignUp({setCurrentUser}) {
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
@@ -38,21 +40,21 @@ function SignUp({setCurrentUser}) {
         <div>
             <form onSubmit={handleSubmit}>
                 <div className="form-group">
-                    {/* <label for="exampleInputEmail1">Email address</label> */}
+                    <label for="InputEmail" id="signup-email">Email address</label>
                     <input
                      type="email"
                      className="form-control" 
-                     id="exampleInputEmail1" 
+                     id="form-input-email" 
                      aria-describedby="emailHelp" 
                      placeholder="name@example.com" 
                      onChange={(e) => setEmail(e.target.value)}
                     />
 
-                    {/* <label for="exampleInputPassword1">Password</label> */}
+                    <label for="InputPassword" id="signup-password">Password</label>
                     <input
                      type="password" 
                      className="form-control" 
-                     id="exampleInputPassword1" 
+                     id="form-input-password" 
                      placeholder="Password" 
                      onChange={(e) => setPassword(e.target.value)}
                     />
@@ -66,11 +68,12 @@ function SignUp({setCurrentUser}) {
                     <label className="form-check-label" for="exampleCheck1">Opt in to Compass communications. No spam, ever.</label>
                 </div>
             </form>
-            <button type="submit" className="btn create-account" onClick={handleSubmit}>Create Account</button>
-
+            <a href='/signup'><button className='create-account' onClick={handleSubmit}>Create Account</button></a>
             {/* <input class="btn btn-primary create-account" type="button" value="Create Account"></input> */}
 
             <h4 className="sign-up-tag">Already have an account? <a href="/signin" className="sign-up-link">Sign in to Compass</a></h4>
+
+            <Footer />            
         </div>
     )
 }
